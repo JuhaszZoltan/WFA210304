@@ -46,14 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVizsgak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVizsgak.Designer.cs">
+      <DependentUpon>FrmVizsgak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVizsgazo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVizsgazo.Designer.cs">
+      <DependentUpon>FrmVizsgazo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVizsgak.resx">
+      <DependentUpon>FrmVizsgak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVizsgazo.resx">
+      <DependentUpon>FrmVizsgazo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
